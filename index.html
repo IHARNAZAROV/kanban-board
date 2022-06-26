@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Kanban Board</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/x-icon" href="/assets/kanban.png">
+</head>
+
+
+<body>
+
+  <div class="header">
+    <h1> Kanban Desk</h1>
+  </div>
+
+  <div class="boards">
+
+    <div class="board">
+      <h3>To Do</h3>
+      <div class="dropzone">
+        <div class="card" draggable="true">
+          <div class="status green"></div>
+          <div class="content"> Do something</div>
+        </div>
+      </div>
+    </div>
+    <div class="board">
+      <h3>Doing</h3>
+      <div class="dropzone">
+        <div class="card" draggable="true">
+          <div class="status blue"></div>
+          <div class="content">Doing somethig</div>
+        </div>
+      </div>
+    </div>
+    <!-- Board Three -->
+    <div class="board">
+      <h3>Done</h3>
+      <div class="dropzone">
+        <div class="card" draggable="true">
+          <div class="status red"></div>
+          <div class="content">Something is done</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="script.js" defer></script>
+
+
+</body>
+</html>
